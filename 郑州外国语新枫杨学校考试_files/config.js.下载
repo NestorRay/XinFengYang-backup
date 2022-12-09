@@ -1,0 +1,58 @@
+let isTest = false; //测试环境true 正式环境false
+window._config = isTest
+  ? {
+      // 测试环境
+      baseUrl: "https://schoolapitest.xhkjedu.com/",
+      baseImageUrl: "https://schoolfiletest.xhkjedu.com/",
+      showImageUrl: "https://schoolstatictest.xhkjedu.com/static/",
+      downLoadUrl: "https://schoolstatictest.xhkjedu.com/download/",
+      liveBackUrl: "https://schoolrecstatictest.xhkjedu.com/",
+      cloudHelpUrl: "https://sctest.xhkjedu.com/schoolhelp/index.html",
+      uselocalWs: false, // 是否使用本地socket
+      wsUrl: "ws://192.168.2.18:9876", // 本地socket链接
+      showTeacherClient: true, // 下载是否显示教师课堂端
+      showTeacherLive: true, // 下载是否显示教师直播端
+      teacherLiveName: "教师直播端", // 教师直播端 郑外网校 新枫杨网校 十一中网校教师端 七十一中网校
+      showTeacherApp: true, // 下载是否显示教师app
+      showAppRecord: true, // 下载是否显示星火微课
+      showStuLive: true, // 下载是否显示学生直播端
+      stuLiveName: "学生直播端", // 学生直播端 郑外网校学生端 新枫杨网校学生端 十一中网校学生端 七十一中网校学生端
+      showStuApp: true, // 下载是否显示学生app
+      showAppQrcode: false, // 是否显示学生app扫码下载
+      appQrcodeName: "扫描下载学生APP", // 扫描下载学生APP 扫描下载郑外网校APP 扫描下载新枫杨网校APP 扫描下载七十一中网校APP 扫描下载十一中网校APP
+      useMicroservice: true, // 是否使用微服务
+      axiosApiTimeout: 20, // 接口超时时间 单位秒
+      axiosFileTimeout: 30, // 上传文件超时时间 单位秒
+      versionname: "测试 v3.4.0",
+      secret: false
+    }
+  : {
+      // 正式环境
+      baseUrl: "https://xfyapi.xhkjedu.com/",
+      baseImageUrl: "https://xfyfile.xhkjedu.com/",
+      showImageUrl: "https://xfystatic.xhkjedu.com/static/",
+      downLoadUrl: "https://xfystatic.xhkjedu.com/download/",
+      liveBackUrl: "https://xfyrecstatic.xhkjedu.com/",
+      base64file: "https://xfyface.xhkjedu.com/",
+      // 云平台接口api
+      cloudApiUrl: "//scapi.xhkjedu.com/",
+      cloudHelpUrl: "//sc.xhkjedu.com/schoolhelp/index.html",
+      uselocalWs: false, // 是否使用本地socket
+      wsUrl: "ws://192.168.2.18:9876", // 本地socket链接
+      monitorWsUrl: "wss://xfywsexam.xhkjedu.com/ws",
+      showTeacherClient: false, // 下载是否显示教师课堂端
+      showTeacherLive: true, // 下载是否显示教师直播端
+      teacherLiveName: "新枫杨网校", // 教师直播端 郑外网校 新枫杨网校 十一中网校教师端 七十一中网校
+      showTeacherApp: false, // 下载是否显示教师app
+      showAppRecord: true, // 下载是否显示星火微课
+      showStuLive: true, // 下载是否显示学生直播端
+      stuLiveName: "新枫杨网校学生端", // 学生直播端 郑外网校学生端 新枫杨网校学生端 十一中网校学生端 七十一中网校学生端
+      showStuApp: false, // 下载是否显示学生app
+      showAppQrcode: true, // 是否显示学生app扫码下载
+      appQrcodeName: "扫描下载新枫杨网校APP", // 扫描下载学生APP 扫描下载郑外网校APP 扫描下载新枫杨网校APP 扫描下载七十一中网校APP 扫描下载十一中网校APP
+      useMicroservice: true, // 是否使用微服务
+      axiosApiTimeout: 20, // 接口超时时间 单位秒
+      axiosFileTimeout: 30, // 上传文件超时时间 单位秒
+      versionname: "正式 v3.6.24",
+      secret: true
+    };

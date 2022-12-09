@@ -1,0 +1,385 @@
+/* 主题字体颜色 */
+.theme_color,
+.ivu-steps-main > .ivu-steps-content,
+.ivu-steps-item.ivu-steps-status-finish .ivu-steps-head-inner > .ivu-steps-icon,
+.ivu-steps-item.ivu-steps-status-finish .ivu-steps-head-inner span,
+.ivu-steps-item.ivu-steps-status-process .ivu-steps-title {
+  color: #960200!important;
+}
+.theme_color_h:hover {
+  color: #960200!important;
+}
+/* 主题背景颜色 */
+.theme_bgcolor,
+.ivu-steps-item.ivu-steps-status-finish .ivu-steps-tail > i:after {
+  background-color: #960200!important;
+}
+.theme_bgcl{
+  border-color: #960200!important;
+  color: #960200!important;
+}
+.theme_bgc{
+  background-color: #960200 !important;
+  color: #ffffff !important;
+  border-color: #960200!important;
+}
+/* 标签悬停背景颜色 */
+.bgcolor:hover{
+  background-color: #960200 !important;
+  color: #ffffff !important;
+}
+.theme_light_bgcolor,
+.theme_light_bgcolor_h:hover {
+  background-color: #ffecec!important;
+}
+.theme_light_border {
+  border-color: #ffecec!important;
+}
+.theme_deep_bgcolor {
+  background-color: #710200!important;
+}
+/* 按钮选中及选中悬浮颜色 */
+.theme_btn_selected {
+  color: #ffffff !important;
+  background-color: #960200 !important;
+  border-color: #960200!important;
+}
+.theme_mode_selected {
+  background-color: #ebf5ff!important;
+  border-color: #2d8cf0!important;
+}
+.theme_btn_h:hover {
+  color: #960200!important;
+  background-color: #ffecec!important;
+  border-color: #960200!important;
+}
+/* 首页配色 */
+.horn-teach,
+.doing {
+  background: #ff6746!important;
+}
+.not_start {
+  background: #999!important;
+}
+/* 边框颜色 */
+.theme_border_color,
+.ivu-steps-item.ivu-steps-status-finish .ivu-steps-head-inner {
+  border-color: #960200!important;
+}
+.theme_border_color_h:hover,.ivu-upload-drag:hover {
+  border-color: #960200!important;
+}
+.ivu-btn-group:not(.ivu-btn-group-vertical) .ivu-btn-primary+.ivu-btn{
+  border-left-color: transparent;
+}
+/* 边框阴影 */
+.theme_shadow:hover{
+  border: 1px solid #960200!important;
+  box-shadow: 0px 0px 13px 0px #960200!important;
+}
+/* 滚动条颜色 */
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #e5e5e5;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #e5e5e5;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  background-color: #960200!important;
+}
+/* 进度条设置主题背景颜色 */
+.theme_progress_bg .ivu-progress-bg,.ivu-progress-bg {
+  background: #960200;
+}
+/* iview 样式改变 */
+.ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item-selected,
+.ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item-selected:hover,
+.ivu-tree-children .ivu-tree-children .ivu-tree-title-selected,
+.ivu-time-picker-cells-cell-selected,
+.ivu-time-picker-cells-cell-selected:hover,
+.ivu-tree-title-selected,
+.ivu-page-item-active a,
+.ivu-page-item-active:hover a,
+.ivu-page-item:hover a,
+.ivu-select-item-selected,
+.ivu-select-item-selected:hover,
+.ivu-tabs-nav .ivu-tabs-tab-active,
+.ivu-tabs-bar .ivu-tabs-nav .ivu-tabs-tab:hover,
+.ivu-menu-vertical .ivu-menu-item:hover,
+.ivu-menu-vertical .ivu-menu-submenu-title:hover,
+.sub .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu),
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu),
+.ivu-spin,
+.ivu-page-item-jump-prev:hover i:first-child,
+.ivu-page-item-jump-next:hover i:first-child,
+.ivu-picker-panel-icon-btn:hover,
+.ivu-select-dropdown .ivu-dropdown-menu .ivu-dropdown-item:hover,
+.ivu-input-number-handler:hover .ivu-input-number-handler-up-inner,
+.ivu-input-number-handler:hover .ivu-input-number-handler-down-inner,
+.ivu-page-prev:hover .ivu-icon,
+.ivu-page-next:hover .ivu-icon,
+.ivu-cascader-menu-item-active,
+.ivu-table-sort i.on,
+.ivu-dropdown-item-selected,
+.ivu-select-multiple .ivu-select-item-selected:after {
+  color: #960200!important;
+}
+.ivu-page-prev.ivu-page-disabled:hover,
+.ivu-page-next.ivu-page-disabled:hover {
+  border-color: #dcdee2!important;
+}
+.ivu-page-prev.ivu-page-disabled:hover a,
+.ivu-page-next.ivu-page-disabled:hover a,
+.ivu-page-prev.ivu-page-disabled:hover a .ivu-icon,
+.ivu-page-next.ivu-page-disabled:hover a .ivu-icon {
+  color: #ccc!important;
+}
+.ivu-page-prev .ivu-icon,
+.ivu-page-next .ivu-icon {
+  padding: 0;
+}
+.home .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu),
+.stu_tree .ivu-menu-horizontal {
+  background-color: #960200!important;
+  color: #fff!important;
+}
+.item_content_exam .active{
+  border-bottom: 2px solid #960200!important;
+  color: #960200!important;
+}
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu-active,
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover,
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover,
+.ivu-btn:hover {
+  color: #960200!important;
+  border-color: #960200!important;
+}
+.theme_del_color {
+  color: #ff001e!important;
+}
+.ivu-btn-error,
+.ivu-btn-error:active,
+.ivu-btn-error.active,
+.ivu-btn-error:hover {
+  color: #ffffff!important;
+  background-color: #ff001e!important;
+  border-color: #ff001e!important;
+}
+.ivu-btn-ghost.ivu-btn-error,
+.ivu-btn-ghost.ivu-btn-error:hover {
+  color: #ff001e!important;
+  border-color: #ff001e!important;
+  background-color: rgba(254, 245, 243, 0.5)!important;
+}
+.ivu-btn-primary:hover,
+.ivu-btn-primary:active,
+.ivu-btn-primary.active {
+  color: #fff!important;
+}
+.ivu-btn,
+.ivu-checkbox-inner,
+.ivu-radio-inner,
+.ivu-input,
+.ivu-input-number,
+.ivu-select-visible .ivu-select-selection,
+.ivu-date-picker-cells-focused em,
+.ivu-select-visible .ivu-select-selection {
+  box-shadow: none!important;
+}
+.ivu-modal .ivu-modal-content .ivu-modal-header,
+.ivu-radio-inner:after,
+.ivu-tabs-ink-bar,
+.ivu-date-picker-cells-cell-selected em,
+.ivu-date-picker-cells-cell-selected:hover em,
+.ivu-date-picker-cells-cell-today em:after,
+.stu_tree .ivu-menu-horizontal.ivu-menu-light:after,
+.ivu-layout-header {
+  background-color: #960200!important;
+}
+.ivu-tree-title-selected,
+.ivu-tree-title-selected:hover,
+.ivu-tree-title:hover {
+  /* background-color: #f2c695!important; */
+  background-color: transparent!important;
+}
+.ivu-btn-primary,
+.ivu-checkbox-checked .ivu-checkbox-inner,
+.ivu-checkbox-indeterminate .ivu-checkbox-inner,
+.ivu-input-search,
+.ivu-input-search:hover,
+.input-box .ivu-input-search,
+.input-box .ivu-input-search:hover,
+.ivu-steps-item.ivu-steps-status-process .ivu-steps-head-inner,
+.ivu-switch-checked {
+  background-color: #960200!important;
+  border-color: #960200!important;
+}
+.ivu-switch:before {
+  border: 1px solid #960200!important;
+  border-color: transparent transparent transparent #960200!important;
+}
+.ivu-radio-checked .ivu-radio-inner,
+.ivu-input:hover,
+.ivu-input:focus,
+.ivu-date-picker-focused input,
+.ivu-input-number:hover,
+.ivu-input-number:focus,
+.ivu-page-item-active,
+.ivu-page-prev:hover,
+.ivu-page-next:hover,
+.ivu-page-item:hover,
+.ivu-select-selection:hover,
+.ivu-select-selection-focused,
+.ivu-select-visible .ivu-select-selection,
+.ivu-input-with-search:hover .ivu-input,
+.ivu-input-number-focused {
+  border-color: #960200!important;
+}
+.ivu-checkbox-disabled.ivu-checkbox-checked .ivu-checkbox-inner {
+  background-color: #f3f3f3!important;
+  border-color: #dcdee2!important;
+}
+.ivu-btn-text.disabled,
+.ivu-btn-text[disabled],
+fieldset[disabled] .ivu-btn-text,
+.ivu-btn-text.disabled:hover,
+.ivu-btn-text[disabled]:hover,
+fieldset[disabled] .ivu-btn-text:hover,
+.ivu-btn-text.disabled:focus,
+.ivu-btn-text[disabled]:focus,
+fieldset[disabled] .ivu-btn-text:focus,
+.ivu-btn-text.disabled:active,
+.ivu-btn-text[disabled]:active,
+fieldset[disabled] .ivu-btn-text:active,
+.ivu-btn-text.disabled.active,
+.ivu-btn-text[disabled].active,
+fieldset[disabled] .ivu-btn-text.active {
+  color: #c5c8ce!important;
+  background-color: #fff!important;
+  border-color: transparent!important;
+}
+.ivu-btn-ghost.ivu-btn-primary {
+  color: #960200!important;
+  background: transparent!important;
+}
+.ivu-btn-primary.disabled,
+.ivu-btn-primary[disabled],
+fieldset[disabled] .ivu-btn-primary,
+.ivu-btn-primary.disabled:hover,
+.ivu-btn-primary[disabled]:hover,
+fieldset[disabled] .ivu-btn-primary:hover,
+.ivu-btn-primary.disabled:focus,
+.ivu-btn-primary[disabled]:focus,
+fieldset[disabled] .ivu-btn-primary:focus,
+.ivu-btn-primary.disabled:active,
+.ivu-btn-primary[disabled]:active,
+fieldset[disabled] .ivu-btn-primary:active,
+.ivu-btn-primary.disabled.active,
+.ivu-btn-primary[disabled].active,
+fieldset[disabled] .ivu-btn-primary.active,
+.ivu-btn.disabled,
+.ivu-btn.disabled.active,
+.ivu-btn.disabled:active,
+.ivu-btn.disabled:focus,
+.ivu-btn.disabled:hover,
+.ivu-btn[disabled],
+.ivu-btn[disabled].active,
+.ivu-btn[disabled]:active,
+.ivu-btn[disabled]:focus,
+.ivu-btn[disabled]:hover,
+fieldset[disabled] .ivu-btn,
+fieldset[disabled] .ivu-btn.active,
+fieldset[disabled] .ivu-btn:active,
+fieldset[disabled] .ivu-btn:focus,
+fieldset[disabled] .ivu-btn:hover {
+  color: #c5c8ce!important;
+  background-color: #f7f7f7!important;
+  border-color: #dcdee2!important;
+}
+/* 首页日历 */
+.btn_wrap ul li:first-child {
+  border-left-color: #960200!important;
+}
+.btn_wrap ul li:last-child {
+  border-right-color: #960200!important;
+}
+/* 加载图片 */
+.img-leftSanjiao{
+  background-image: url("./theme_imag/haverRed/home_jiantou.png")!important;
+}
+.img-shiTiLan{
+  background: url("./theme_imag/haverRed/shitilan.png") 50% no-repeat;
+  background-image: url("./theme_imag/haverRed/shitilan.png")!important;
+}
+.show-red-inline-block {
+  display: inline-block!important;
+}
+.hide {
+  display: none;
+}
+.showRed {
+  display: inline-block;
+}
+/* 线性背景色 */
+.bg_linear_gradient {
+  background: linear-gradient(0deg, #960200, #b92725);
+}
+/* 禁用状态 */
+.ivu-radio-disabled .ivu-radio-inner {
+  border-color: #dcdee2!important;
+  background-color: #f3f3f3!important;
+}
+.ivu-radio-disabled .ivu-radio-inner:after {
+  background-color: #ccc!important;
+}
+.ivu-input[disabled]:hover,
+fieldset[disabled] .ivu-input:hover {
+  border-color: #e3e5e8!important;
+}
+
+.border_main{
+  border: 1px solid #960200;
+}
+
+.btn_main{
+  color: #960200;
+  background-color: white;
+}
+
+.btn_main:hover{
+  background-color: #960200;
+  color: white;
+}
+
+.text_main{
+  color: #960200;
+}
+
+.content_center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_border{
+  border: 1px solid black !important;
+}
+
+.card_border:hover{
+  border: 1px solid #960200 !important;
+}
+
+.ques_boder_main{
+  border: 1px solid transparent !important;
+}
+
+.ques_boder_main:hover{
+  border: 1px solid #960200 !important;
+}
